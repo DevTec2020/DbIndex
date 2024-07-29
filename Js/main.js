@@ -1,7 +1,7 @@
 import {SearchDB} from './search.js'
 import {TelaHome} from './home.js'
 import {TelaCadastroDb} from './cadastroDb.js'
-import {TelaUser} from './User.js'
+import {TelaUser} from './user.js'
 
 const btn_canvas_header = document.getElementById('btn-canvas-header')
 const btn_sair_header = document.getElementById('btn-sair-header')
