@@ -5,7 +5,7 @@ export function SearchDB(){
     container_main.innerHTML=`
                     <div class="container-fluid">
                 <h2><strong>Consultar Banco</strong></h2>
-                <div class="form-group ps-4 div-filtro">
+                <div class="form-group p-3 div-filtro">
                     <label for="">Buscar Por:</label><br>
                     <select class="form-select-sm" id="">
                         <option value="">Selecione</option>
@@ -18,7 +18,7 @@ export function SearchDB(){
                     <input type="text" class="form-control-sm" required>
                     <span><i class="bi bi-search btn-pointer fs-4"></i></span>
                 </div><br>
-                <div class="form-group ps-4 div-dados">
+                <div class="form-group p-3 div-dados">
                     <table class="table table-striped">
                         <thead>
                             <tr>
