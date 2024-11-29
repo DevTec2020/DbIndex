@@ -758,6 +758,18 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .rounded-sm {
   border-radius: 0.125rem;
 }
@@ -856,6 +868,22 @@ video {
 
 .ps-2 {
   padding-inline-start: 0.5rem;
+}
+
+.pe-4 {
+  padding-inline-end: 1rem;
+}
+
+.pe-6 {
+  padding-inline-end: 1.5rem;
+}
+
+.pe-10 {
+  padding-inline-end: 2.5rem;
+}
+
+.pe-48 {
+  padding-inline-end: 12rem;
 }
 
 .text-left {
