@@ -2,7 +2,7 @@ export function listDbIcoClick() {
     const DivMain = document.getElementById('DivMain');
 
     DivMain.innerHTML = `
-            <!-- cabeçalho da tela--> 
+        <!-- cabeçalho da tela--> 
         <div>
           <h3 class="text-lg font-semibold text-slate-800">Lista de bancos</h3>
           <p class="text-slate-500">Relação de bancos para consulta</p>
@@ -11,14 +11,13 @@ export function listDbIcoClick() {
         <!-- Form de busca-->
          <div class="flex mt-5 justify-end">
             <form class="flex w-80 shadow">
-            <img class="mx-3" src="./assets/Icone-search.svg" alt="" srcset="" />
-            <input class="h-12 w-full text-center" type="text"
-                placeholder="Digite o número do chamado "/>
+              <img class="mx-3" src="../assets/Icone-search.svg" alt="" srcset="" />
+              <input class="h-12 w-full text-center" type="text" placeholder="Digite o número do chamado "/>
             </form>
         </div>
 
         <!-- tabela de dados-->
-        <div class="mt-5 shadow-md relative rounded-lg">
+        <div class="mt-5 shadow-md rounded-lg">
           <table class="w-full text-center">
             <thead class="bg-gray-300">
               <tr>
