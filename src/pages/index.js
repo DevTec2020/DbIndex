@@ -1,16 +1,37 @@
-import {listDbIcoClick} from "./listadb.js";
+import { homeClick } from "./home.js";
+import { cadastrardbClick } from "./cadastrodb.js";
+import { localizardbClick } from "./localizardb.js";
+import { perfilClick } from "./perfil.js";
 
 const DivMain = document.getElementById('DivMain');
 
-const ListDbIco = document.getElementById('ListDbIco');
-const cadDbIco = document.getElementById('cadDbIco');
+const homeIco = document.getElementById('homeIco');
+const cadastrodbIco = document.getElementById('cadastrodbIco');
+const localizadbIco = document.getElementById('localizadbIco');
+const perfilIco = document.getElementById('perfilIco');
+const sairIco = document.getElementById('sairIco');
 
 
-ListDbIco.addEventListener('click', () => {
-    
-    listDbIcoClick()
+homeIco.addEventListener('click', () => {
+    DivMain.innerHTML = ''
+    homeClick()
 })
 
-cadDbIco.addEventListener('click', () => {
+cadastrodbIco.addEventListener('click', () => {
     DivMain.innerHTML = ''
+    cadastrardbClick()
+})
+
+localizadbIco.addEventListener('click', () => {
+    localizardbClick()
+})
+
+perfilIco.addEventListener('click', () => {
+    DivMain.innerHTML = ''
+    perfilClick()
+})
+
+sairIco.addEventListener('click', () => {
+    confirm("Realmente deseja sair do sistema ?")
+    
 })

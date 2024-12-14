@@ -1,4 +1,4 @@
-export function listDbIcoClick() {
+export function localizardbClick() {
     const DivMain = document.getElementById('DivMain');
 
     DivMain.innerHTML = `
@@ -21,12 +21,12 @@ export function listDbIcoClick() {
           <table class="w-full text-center">
             <thead class="bg-gray-300">
               <tr>
-                <th>Data</th>
+                <th>#</th>
                 <th>Chamado</th>
                 <th>Solicitante</th>
                 <th>Caminho do Banco</th>
                 <th>Pode Excluir?</th>
-                <th>Nova Data</th>
+                <th>Data</th>
                 <th>Status</th>
               </tr>
             </thead>
