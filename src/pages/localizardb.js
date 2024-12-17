@@ -22,11 +22,11 @@ export function localizardbClick() {
             <thead class="bg-gray-300">
               <tr>
                 <th>#</th>
+                <th>Data</th>
                 <th>Chamado</th>
                 <th>Solicitante</th>
                 <th>Caminho do Banco</th>
                 <th>Pode Excluir?</th>
-                <th>Data</th>
                 <th>Status</th>
               </tr>
             </thead>
