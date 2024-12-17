@@ -7,7 +7,7 @@ const DivMain = document.getElementById('DivMain');
 
 const homeIco = document.getElementById('homeIco');
 const cadastrodbIco = document.getElementById('cadastrodbIco');
-const localizadbIco = document.getElementById('localizadbIco');
+const localizardbIco = document.getElementById('localizardbIco');
 const perfilIco = document.getElementById('perfilIco');
 const sairIco = document.getElementById('sairIco');
 
@@ -22,7 +22,7 @@ cadastrodbIco.addEventListener('click', () => {
     cadastrardbClick()
 })
 
-localizadbIco.addEventListener('click', () => {
+localizardbIco.addEventListener('click', () => {
     localizardbClick()
 })
 

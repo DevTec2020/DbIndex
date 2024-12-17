@@ -11,7 +11,7 @@ export function localizardbClick() {
         <!-- Form de busca-->
          <div class="flex mt-5 justify-end">
             <form class="flex w-80 shadow">
-              <img class="mx-3" src="../assets/Icone-search.svg" alt="" srcset="" />
+              <img class="mx-3" src="./src/assets/Icone-search.svg" alt="" srcset="" />
               <input class="h-12 w-full text-center" type="text" placeholder="Digite o número do chamado "/>
             </form>
         </div>
