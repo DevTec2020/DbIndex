@@ -20,6 +20,7 @@ homeIco.addEventListener('click', () => {
 cadastrodbIco.addEventListener('click', () => {
     DivMain.innerHTML = ''
     cadastrardbClick()
+    
 })
 
 localizardbIco.addEventListener('click', () => {

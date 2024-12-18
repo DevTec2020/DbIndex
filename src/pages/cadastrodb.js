@@ -1,5 +1,6 @@
 export function cadastrardbClick() {
     const DivMain = document.getElementById('DivMain');
+    
 
     DivMain.innerHTML = `
       <div class="flex justify-center items-center">
