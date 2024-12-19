@@ -1,0 +1,32 @@
+{
+    "restores": [
+        {
+            "data": "06/11/2024",
+            "chamado": "CH202411016166",
+            "servidor": "X.X.X.44",
+            "banco": "X.X.X.44\tecnologia2022:AC_CH202411016166_0611",
+            "solicitante": "Snádya Freitas",
+            "podeExcluir": "sim",
+            "status": "Excluído"
+        },
+        {
+            "data": "03/12/2024",
+            "chamado": "CH202412007528",
+            "servidor": "X.X.X.44",
+            "banco": "X.X.X.44\tecnologia2022:AG_CH202412007528_0312",
+            "solicitante": "Damião Silva",
+            "podeExcluir": "sim",
+            "status": "Ativo"
+        },
+        {
+            "data": "05/12/2024",
+            "chamado": "CH202412016608",
+            "servidor": "X.X.X.44",
+            "banco": "X.X.X.44\tecnologia2022:AC_CH202412016608_0512",
+            "solicitante": "Ana Catarine",
+            "podeExcluir": "sim",
+            "status": "Ativo"
+        }
+    ]
+    
+}
