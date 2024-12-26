@@ -17,7 +17,8 @@ homeIco.addEventListener('click', () => {
     homeClick()
 })
 
-cadastrodbIco.addEventListener('click', () => {
+cadastrodbIco.addEventListener('click', (ev) => {
+    ev.preventDefault()
     DivMain.innerHTML = ''
     cadastrardbClick()
     
